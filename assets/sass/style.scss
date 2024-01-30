@@ -1,0 +1,41 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+@import 'variable.scss';
+@import 'header.scss';
+@import 'introducing.scss';
+@import 'state.scss';
+@import 'free.scss';
+@import 'footer.scss';
+@import 'media.scss';
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.attribution {
+     font-size: 11px;
+     text-align: center;
+     background-color: $neutral-black-dark;
+     color: $neutral-grayish-blue;
+     width: 100%;
+}
+.attribution a { color: $neutral-grayish-blue; }
+
+
+

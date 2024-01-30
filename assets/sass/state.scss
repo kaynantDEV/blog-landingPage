@@ -1,0 +1,48 @@
+.state{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to left, $gradient-dark-desaturated, $gradient-body-gray-dark);
+    border-radius: 0px 100px 0px 100px;
+    position: relative;
+    margin-top: 10%;
+    .state-text{
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        z-index: 1;
+        h2{
+            font-family: 'overpass', sans-serif;
+            font-size: 2.5rem;
+            color: $neutral-white
+        }
+
+        p{
+            font-family: 'overpass', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 300;
+            line-height: 20px;
+            color: $neutral-grayish-blue;
+            max-width: 70%;
+        }
+    }
+    .state-phones{
+        z-index: 2;
+    }
+}
+
+.state::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -230px;
+    background: url('../images/bg-pattern-circles.svg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}

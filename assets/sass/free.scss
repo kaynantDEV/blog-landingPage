@@ -1,0 +1,36 @@
+.free{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    .free-img{
+        margin-left: -280px;
+    }
+    
+    .free-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-right: 5%;
+
+        h3{
+            font-family: 'overpass', sans-serif;
+            font-weight: 600;
+            font-size: 1.8rem;
+            color: $primary-dark-blue
+        }
+
+        p{
+            font-family: 'overpass', sans-serif;
+            font-size: 0.9rem;
+            line-height: 25px;
+            color: $neutral-grayish-dark;
+            max-width: 80%;
+            margin-top: 10px;
+        }
+    }
+}
