@@ -446,7 +446,10 @@ footer .footer-links a:hover {
         text-align: center;
         margin: 0 5%;
       }
-  
+      .desgign{
+        font-size: 1rem;
+        margin: 0 5%;
+      }
   
   
       .introducing-cont{
@@ -477,9 +480,10 @@ footer .footer-links a:hover {
         margin: 0 5% 80px 5%;
       }
       .introducing-text h3{
-        width: 50%;
+        width: 100%;
         font-size: 1.3rem;
         text-align: center;
+        margin: 0 5%;
       }
       .introducing-text p{
         margin: 0 auto;
@@ -489,7 +493,7 @@ footer .footer-links a:hover {
       .state{
         display: flex;
         flex-direction: column;
-        height: 800px;
+        height: 900px;
         border-radius: 0px 100px 0px 100px;
         margin: 0 5%;
       }
