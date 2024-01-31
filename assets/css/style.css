@@ -460,6 +460,7 @@ footer .footer-links a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 0 5%;
       }
       .introducing-img img{
         width: 400px;
@@ -475,6 +476,10 @@ footer .footer-links a:hover {
         text-align: center;
         margin: 0 5% 80px 5%;
       }
+      .introducing-text h3{
+        width: 80%;
+        font-size: 1.8rem;
+      }
       .introducing-text p{
         margin: 0 auto;
         width: 50%;
@@ -488,7 +493,7 @@ footer .footer-links a:hover {
         margin: 0 5%;
       }
       .state-phones{
-        margin-top: -200px;
+        margin-top: 10%;
       }
       .state-text{
         display: flex;
@@ -496,7 +501,7 @@ footer .footer-links a:hover {
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 100%;
+        width: 80%;
       }
       .free{
         display: flex;
@@ -529,6 +534,7 @@ footer .footer-links a:hover {
       align-items: center;
       justify-content: center;
       gap: 50px;
+      margin-top: 5%;
       border-radius: 0px 100px 0px 0px;
      }
 
